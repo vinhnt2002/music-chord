@@ -1,0 +1,13 @@
+[2025-03-21 14:48:34 +0700] [72739] [INFO] Starting gunicorn 23.0.0
+[2025-03-21 14:48:34 +0700] [72739] [INFO] Listening at: http://0.0.0.0:7788 (72739)
+[2025-03-21 14:48:34 +0700] [72739] [INFO] Using worker: gevent
+[2025-03-21 14:48:34 +0700] [72756] [INFO] Booting worker with pid: 72756
+[2025-03-21 14:48:34 +0700] [72757] [INFO] Booting worker with pid: 72757
+[2025-03-21 14:48:35 +0700] [72758] [INFO] Booting worker with pid: 72758
+[2025-03-21 14:48:35 +0700] [72759] [INFO] Booting worker with pid: 72759
+[2025-03-21 16:18:57 +0700] [72739] [INFO] Handling signal: int
+[2025-03-21 16:18:57 +0700] [72756] [INFO] Worker exiting (pid: 72756)
+[2025-03-21 16:18:57 +0700] [72759] [INFO] Worker exiting (pid: 72759)
+[2025-03-21 16:18:57 +0700] [72758] [INFO] Worker exiting (pid: 72758)
+[2025-03-21 16:18:57 +0700] [72757] [INFO] Worker exiting (pid: 72757)
+[2025-03-21 16:18:58 +0700] [72739] [INFO] Shutting down: Master

@@ -1,0 +1,5 @@
+1. logging and timeout and concurency on each cpu
+gunicorn --access-logfile access.log --error-logfile error.log --timeout 60 --workers 4 --worker-class gevent --bind 0.0.0.0:7788 app:app
+
+2. keep Gunicorn running after closing terminal
+nohup gunicorn --timeout 60 --workers 4 --worker-class gevent --bind 0.0.0.0:7788 app:app 
